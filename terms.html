@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title></title>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <body>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600;&display=swap" rel="stylesheet">
+    </head>
+    <!-- stylesheet -->
+    <style>
+        .div0 {
+            align-items: center;
+            grid-row-start: 1;
+            grid-column-start: 1;
+            grid-row-end: 2;
+            grid-column-end: 3;
+            font-family: 'poppins';
+            background-color: #ffffff;
+            justify-content: center;
+            font-size: 2em;
+        }
+
+        .tou-title {
+            padding-bottom: 4px;
+            box-shadow: 0 -25px 0 #d8eff0 inset;
+            display: inline;
+            color: #616161;
+        }
+
+        ul {
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+            font-family: 'poppins';
+        }
+
+        .tou-title a {
+            margin-block-start: 0.67em;
+            margin-block-end: 0.67em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            text-align: center;
+            position: relative;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            height: 110px;
+            margin: auto;
+        }
+
+        .div1 {
+            grid-row-start: 2;
+            grid-column-start: 1;
+            grid-row-end: 3;
+            grid-column-end: 3;
+            font-weight: 400;
+            color: #616161;
+            background-color: #f6f6f6;
+            display: grid; 
+            align-items: center;
+            margin: 0px;
+        }
+
+        .agree {
+            outline: none;
+            background-color: #98d1d4;
+            padding: 0.5em 1.5em;
+            font-size: 1.5em;
+            font-family: 'poppins';
+            color: #2e2d2d;
+            border: none;
+            border-radius: 7px;
+            align-items: center;
+        }
+
+        .agree:hover {
+            background-color: #76bcc0;
+        }
+    </style>
+    <!-- section start -->
+    <section class="terms" id="tou">
+    <div class="div0">
+    <h1 class="tou-title">terms of use</h1>
+    </div>
+    <div class="div1">
+    <ul>
+        <li><i data-feather="check"></i> edit my codes as much as you want without removing the credit</li>
+        <li><i data-feather="check"></i> add your own accessories! (ex: widgets, sections, images)</li>
+        <li><i data-feather="check"></i> message me if you have any problems</li>
+        <li><i data-feather="check"></i> ask a question if you need troubleshooting</li>
+        </ul>
+    </div>
+    <div class="div1">
+    <ul>
+        <li><i data-feather="x"></i> do not remove the credit</li>
+        <li><i data-feather="x"></i> do not steal accessories from my codes</li>
+        <li><i data-feather="x"></i> do not use my codes as a base code unless i say so</li>
+        <li><i data-feather="x"></i> do not claim parts of my code as your own</li>
+    </ul>
+    </div>
+    <button class="agree">accept & continue</button>
+    </section>
+    <!-- section end -->
+    <script>
+        feather.replace()
+      </script>
+    </body>
+</html>
